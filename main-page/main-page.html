@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MapTour</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main-style.css">
     <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
@@ -12,12 +12,12 @@
     <div class="header-container">
         <div class="topnav">
             <div class="topnav-left">
-                <a class="active" href="#">Отзывы</a>
-                <a href="#">Контакты</a>
+                <a class="active" href="#REVIEWS">Отзывы</a>
+                <a href="#CONTACTS">Контакты</a>
             </div>
             <div class="topnav-right">
                 <a href="#">RU</a>
-                <a href="#">+7-908-820-30-01</a>
+                <a href="tel:+7-908-820-30-01">+7-908-820-30-01</a>
             </div>
         </div>
         <div class="outer">
@@ -70,32 +70,32 @@
             <div class="body-container-3-block">
                 <h3>Африка</h3>
                 <p style="margin-top: 5%;">Узнай новое о географии Африки</p>
-                <button class="blocks-btn" style="margin-top: 15%;">К карте</button>
+                <button onclick="window.location.href = '../Africa/Africa.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
             </div>
             <div class="body-container-3-block">
                 <h3>Россия</h3>
                 <p style="margin-top: 5%;">более 1000+ городов России</p>
-                <button class="blocks-btn" style="margin-top: 15%;">К карте</button>
+                <button onclick="window.location.href = '../Russia/Russia.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
             </div>
             <div class="body-container-3-block">
                 <h3>Северная Америка</h3>
                 <p style="margin-top: 5%;">Более 100+ городов</p>
-                <button class="blocks-btn" style="margin-top: 15%;">К карте</button>
+                <button onclick="window.location.href = '../North-America/North-America.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
             </div>
             <div class="body-container-3-block">
                 <h3>Южная Америка</h3>
                 <p style="margin-top: 5%;">6 Стран с уникальными городами</p>
-                <button class="blocks-btn" style="margin-top: 15%;">К карте</button>
+                <button onclick="window.location.href = '../South-America/South-America.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
             </div>
             <div class="body-container-3-block">
                 <h3>Австралия</h3>
                 <p style="margin-top: 5%;">Узнай новое о регионах Австралии</p>
-                <button class="blocks-btn" style="margin-top: 15%;">К карте</button>
+                <button onclick="window.location.href = '../Australia/Australia.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
             </div>
         </div>
     </div>
     <!-- 5 ЧАСТЬ 1 СТРАНИЦЫ -->
-    <div class="body-container-4">
+    <div class="body-container-4" id="REVIEWS">
         <div class="body-container-4-header-text">
             <h1 style="margin-top: 10%; font-size: 2.5em;">Связь с нами!</h1>
             <p style="margin-top: 5%; font-size: 1.5em;">Если есть какие-то вопросы по работе сайте, оставляйте заявку.</p>
@@ -109,7 +109,7 @@
         </div>
     </div>
     <!-- 6 ЧАСТЬ 1 СТРАНИЦЫ -->
-    <div class="body-container-5">
+    <div class="body-container-5" id="CONTACTS">
         <div class="body-container-5-header-text">
             <h1 style="margin-top: 10%; font-size: 2.5em;">Наши контакты и соцсети</h1>
             <p style="margin-top: 5%; font-size: 1.5em;">Наш контактный номер: +7 908 820 30 01</p>
