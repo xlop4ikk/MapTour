@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapTour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <!-- 1 ЧАСТЬ 1 СТРАНИЦЫ -->
+    <div class="header-container">
+        <div class="topnav">
+            <div class="topnav-left">
+                <a class="active" href="#REVIEWS">Отзывы</a>
+                <a href="#CONTACTS">Контакты</a>
+            </div>
+            <div class="topnav-right">
+                <a href="#">RU</a>
+                <a href="tel:+7-908-820-30-01">+7-951-447-21-70</a>
+            </div>
+        </div>
+        <div class="outer">
+            <span class="inner">
+                <h1 class="logo">MapTour</h1>
+                <p>Расширяйте горизонт своего познания в области географии вместе с нашим путеводителем</p>
+            </span>
+        </div>
+    </div>
+    <!-- 2 ЧАСТЬ 1 СТРАНИЦЫ --> 
+    <div class="body-container-1">
+        <div class="services">
+            <div class="left-text-div">
+                Более 1000 городов в вашем распоряжении. Изучайте и узнавайте для себя что-то новое.
+            </div>
+            <div>
+                <form class="form" action="" method="post">
+                    <div><h3 class="form-logo-text">Зарегистрируйтесь</h3></div>
+                    <div><p class="form-text">Пройдите регистрацию, чтобы продолжить пользоваться нашими услугами</p></div>
+                    <div><input class="input" type="text" placeholder="Имя"></div>
+                    <div><input class="input" type="email" placeholder="Email"></div>
+                    <div><button class="btn" type="submit">Регистрация</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 3 ЧАСТЬ 1 СТРАНИЦЫ -->
+    <div class="body-container-2">
+        <div class="body-container-2-header-text"><p>В нашем путеводителе вы сможете в интерактивном режиме узнать что-то новое о городах по всему миру. Наши преимущества - это:</p></div>
+        <div class="body-container-2-block-container">
+            <div class="body-container-2-block">
+                <h1>Уникальность</h1>
+                <div class="create-line"></div>
+                <p>Наш продукт уникален. Это совершенно новый подход к использованию карт.</p>
+            </div>
+            <div class="body-container-2-block">
+                <h1>Доступность</h1>
+                <div class="create-line"></div>
+                <p>Весь функционал сайта абсолютно бесплатный.</p>
+            </div>
+        </div>
+    </div>
+    <!-- 4 ЧАСТЬ 1 СТРАНИЦЫ -->
+    <div class="body-container-3">
+        <div class="body-container-3-header-text">
+            <h1 style="margin-top: 10%; font-size: 2.5em;">Выбор Континента</h1>
+            <p style="margin-top: 5%; font-size: 1.5em;">Выберите нужный вам континент и нажмите кнопку "К карте"</p>
+        </div>
+        <div class="body-container-3-block-container">
+            <div class="body-container-3-block">
+                <h3>Африка</h3>
+                <p style="margin-top: 5%;">Узнай новое о географии Африки</p>
+                <button onclick="window.location.href = 'Africa/Africa.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
+            </div>
+            <div class="body-container-3-block">
+                <h3>Европа</h3>
+                <p style="margin-top: 5%;">более 100+ городов Европы</p>
+                <button onclick="window.location.href = 'Europe/Europe.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
+            </div>
+            <div class="body-container-3-block">
+                <h3>Северная Америка</h3>
+                <p style="margin-top: 5%;">Более 100+ городов</p>
+                <button onclick="window.location.href = 'North-America/North-America.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
+            </div>
+            <div class="body-container-3-block">
+                <h3>Южная Америка</h3>
+                <p style="margin-top: 5%;">6 Стран с уникальными городами</p>
+                <button onclick="window.location.href = 'South-America/South-America.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
+            </div>
+            <div class="body-container-3-block">
+                <h3>Австралия</h3>
+                <p style="margin-top: 5%;">Узнай новое о регионах Австралии</p>
+                <button onclick="window.location.href = 'Australia/Australia.html'" class="blocks-btn" style="margin-top: 15%;">К карте</button>
+            </div>
+        </div>
+    </div>
+    <!-- 5 ЧАСТЬ 1 СТРАНИЦЫ -->
+    <div class="body-container-4" id="REVIEWS">
+        <div class="body-container-4-header-text">
+            <h1 style="margin-top: 10%; font-size: 2.5em;">Связь с нами!</h1>
+            <p style="margin-top: 5%; font-size: 1.5em;">Если есть какие-то вопросы по работе сайте, оставляйте заявку.</p>
+        </div>
+        <div>
+            <form class="form-2" action="" method="post">
+                <div><input class="input-2" type="text" placeholder="Имя"></div>
+                <div style="margin-top: 3%;"><input class="input-2" type="email" placeholder="Email"></div>
+                <div style="margin-top: 3%;"><button class="btn-2" type="submit">Оставить заявку</button></div>
+            </form>
+        </div>
+    </div>
+    <!-- 6 ЧАСТЬ 1 СТРАНИЦЫ -->
+    <div class="body-container-5" id="CONTACTS">
+        <div class="body-container-5-header-text">
+            <h1 style="margin-top: 10%; font-size: 2.5em;">Наши контакты и соцсети</h1>
+            <p style="margin-top: 5%; font-size: 1.5em;">Наш контактный номер: +7-951-447-21-70</p>
+        </div>
+        <div class="body-container-5-block-container">
+            <div class="body-container-5-block">
+                <h3>Вконтакте</h3>
+                <p>@xlop4ikk</p>
+            </div>
+            <div class="body-container-5-block">
+                <h3>Инстаграмм</h3>
+                <p>@xatab42</p>
+            </div>
+            <div class="body-container-5-block">
+                <h3>Телеграмм</h3>
+                <p>@xlop4ikk</p>
+            </div>
+            <div class="body-container-5-block">
+                <h3>Почта</h3>
+                <p>bolshakovdan621@mail.ru</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

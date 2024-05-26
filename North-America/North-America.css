@@ -1,0 +1,50 @@
+/* НАВИГАЦИОННАЯ ПАНЕЛЬ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, .wrapper {
+    height: 100%;
+    font-family: Tilda Sans VF;
+    overflow-x: hidden;
+  }
+  
+  .header-container {
+    height: 100%;
+  }
+  
+  @font-face {
+    font-family: "Tilda Sans VF";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../resources/TildaSans-VF.ttf");
+  }
+  
+  .topnav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #333333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
